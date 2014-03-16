@@ -1,1 +1,15 @@
 //This is a test
+
+//Jasmine Tests
+describe("Bowling", function() {
+    it("Know what the scores mean", function() {
+        expect(Bowling('X').toEqual(10);
+	expect(Bowling('/').toEqual(10);
+	expect(Bowling('-').toEqual(0);
+	expect(Bowling('1').toEqual(1);
+
+    });
+});
+
+
+
