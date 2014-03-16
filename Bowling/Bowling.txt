@@ -2,12 +2,18 @@
 
 //Jasmine Tests
 describe("Bowling", function() {
-    it("Know what the scores mean", function() {
+    it("Knows what the scores mean", function() {
         expect(Bowling('X').toEqual(10);
 	expect(Bowling('/').toEqual(10);
 	expect(Bowling('-').toEqual(0);
 	expect(Bowling('1').toEqual(1);
-
+    });
+    it("Knows how to add up the score", function() {
+        expect(BowlingCalc('XXXXXXXXXXXX').toEqual(300);
+	expect(BowlingCalc('9-9-9-9-9-9-9-9-9-9-').toEqual(90);
+	expect(BowlingCalc('------------------------').toEqual(0);
+	expect(BowlingCalc('111111111111111111111111').toEqual(24);
+	expect(BowlingCalc('5/5/5/5/5/5/5/5/5/5/5').toEqual(150);
     });
 });
 
